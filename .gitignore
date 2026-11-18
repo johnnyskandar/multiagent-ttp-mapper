@@ -221,3 +221,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets 
+.env
+*.key
+
+# Vector database and caches
+chroma_db/
+.chroma/
+faiss_index/
+.cache/
+llm_cache/
+
+# Data you should not redistribute
+data/raw/
+*.pdf
+
+# Eval run outputs 
+eval/runs/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local build spec for coding agents 
+AGENTS.md
+CLAUDE.md
+
+# Downloaded ATT&CK STIX data (fetched by scripts/fetch_attack_data.py)
+data/attack/

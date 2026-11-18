@@ -1,0 +1,12 @@
+# Pinned from a working install on Python 3.12.10 (2026-11-18)
+langgraph==1.2.22
+langchain==1.5.1
+langchain-core==1.8.3
+langchain-groq==1.2.1
+langchain-huggingface==1.2.3
+sentence-transformers==6.3.0
+pydantic==2.14.3
+chromadb==1.5.9
+python-dotenv==1.2.4
+tenacity==9.2.1
+pytest==9.2.0
